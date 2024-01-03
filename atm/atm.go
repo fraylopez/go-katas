@@ -17,6 +17,9 @@ func Withdraw(amount int) []Note {
 		} else if remainder >= 100 {
 			res = append(res, Note{100})
 			remainder -= 100
+		} else if remainder >= 50 {
+			res = append(res, Note{50})
+			remainder -= 50
 		}
 	}
 	return res

@@ -23,3 +23,10 @@ func TestWithdrawDifferentBankNotes(t *testing.T) {
 		t.Fatalf("Should be 500,100")
 	}
 }
+
+func TestWithdraw650(t *testing.T) {
+	output := Withdraw(650)
+	if output[0].value != 500 || output[1].value != 100 || output[2].value != 50 {
+		t.Fatalf("Should be 500,100,50")
+	}
+}
