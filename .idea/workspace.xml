@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="feat: withdraw two banknotfeat: withdraw 600 euros">
+    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="feat: add more denominations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atm/atm.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atm/atm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,8 @@
     "last_opened_file_path": "C:/Users/G732/Documents/Gamedev/Katas/go-katas",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager" selected="Go Test.go test atm">
@@ -102,19 +104,10 @@
     <MESSAGE value="feat: withdraw big billets" />
     <MESSAGE value="test: rename test" />
     <MESSAGE value="feat: withdraw two banknotfeat: withdraw 600 euros" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: withdraw two banknotfeat: withdraw 600 euros" />
+    <MESSAGE value="feat: add more denominations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add more denominations" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/atm/atm_test.go</url>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

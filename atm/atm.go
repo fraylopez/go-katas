@@ -9,7 +9,7 @@ func NewAtm() *Atm {
 	return &Atm{}
 }
 
-func Withdraw(amount int) ([]Note, error) {
+func (atm Atm) Withdraw(amount int) ([]Note, error) {
 	res := make([]Note, 0)
 	remainder := amount
 	for remainder > 0 {
