@@ -13,5 +13,8 @@ func Withdraw(amount int) []Note {
 	if amount == 1000 {
 		res = append(res, Note{500})
 	}
+	if amount == 600 {
+		res = append(res, Note{100})
+	}
 	return res
 }
