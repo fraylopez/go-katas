@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/atm/atm.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm.go" afterDir="false" />
+    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="feat: withdraw big billets">
       <change beforePath="$PROJECT_DIR$/atm/atm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,20 @@
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.22rc1" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Culoextremo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e75486a1-1b49-4549-8451-51ee9e8e6fa6" />
+        <option name="url" value="https://github.com/fraylopez/go-katas" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -71,6 +84,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: withdraw big billets" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: withdraw big billets" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
