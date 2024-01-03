@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="test: rename test">
+    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="feat: withdraw two banknotfeat: withdraw 600 euros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atm/atm.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atm/atm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: withdraw big billets" />
     <MESSAGE value="test: rename test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: rename test" />
+    <MESSAGE value="feat: withdraw two banknotfeat: withdraw 600 euros" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: withdraw two banknotfeat: withdraw 600 euros" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
