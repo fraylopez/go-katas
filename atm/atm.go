@@ -6,9 +6,12 @@ type Atm struct {
 func NewAtm() *Atm {
 	return &Atm{}
 }
-func Withdraw(amount int) string {
+
+func Withdraw(amount int) []Note {
+	res := make([]Note, 0)
+	res = append(res, Note{500})
 	if amount == 1000 {
-		return "500,500"
+		res = append(res, Note{500})
 	}
-	return "500"
+	return res
 }
