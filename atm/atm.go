@@ -3,10 +3,18 @@ package main
 import "errors"
 
 type Atm struct {
+	Vault map[Note]int
 }
 
 func NewAtm() *Atm {
-	return &Atm{}
+	var atm Atm
+	atm.Vault = map[Note]int{Note{500}: 0}
+	return &atm
+}
+func LoadedAtm() *Atm {
+	var atm Atm
+	atm.Vault = map[Note]int{Note{500}: 10, Note{200}: 10, Note{100}: 10, Note{50}: 10, Note{20}: 10, Note{10}: 10, Note{5}: 10, Note{2}: 10, Note{1}: 10}
+	return &atm
 }
 
 func (atm Atm) Withdraw(amount int) ([]Note, error) {
@@ -17,10 +25,18 @@ func (atm Atm) Withdraw(amount int) ([]Note, error) {
 		if err != nil {
 			return nil, err
 		}
+		if atm.Vault[_res] == 0 {
+			return nil, errors.New("Not enough banknotes")
+		}
 		res = append(res, _res)
 		remainder -= res[len(res)-1].value
+		atm.Vault[_res]--
 	}
 	return res, nil
+}
+
+func (atm Atm) Insert(note Note) {
+	atm.Vault[note]++
 }
 
 func GetBiggerDenomination(amount int) (Note, error) {
