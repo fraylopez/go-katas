@@ -7,9 +7,7 @@ type Atm struct {
 }
 
 func NewAtm() *Atm {
-	var atm Atm
-	atm.Vault = map[Note]int{Note{500}: 0}
-	return &atm
+	return &Atm{Vault: map[Note]int{Note{500}: 0}}
 }
 func LoadedAtm() *Atm {
 	var atm Atm

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="refactor: call withdraw from atm">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="604d1deb-2b7f-490a-8389-5854a040d305" name="Changes" comment="refactor: deplete atm's vault">
       <change beforePath="$PROJECT_DIR$/atm/atm.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atm/atm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/atm/atm_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atm/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/atm/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   "keyToString": {
     "Go Test.TestATM in atm.executor": "Run",
     "Go Test.TestRunOutOfNotes in atm.executor": "Run",
+    "Go Test.TestWithdrawDifferentBankNotes in atm.executor": "Run",
     "Go Test.go test atm.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,7 +60,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Test.TestRunOutOfNotes in atm">
+  <component name="RunManager" selected="Go Test.TestWithdrawDifferentBankNotes in atm">
     <configuration name="TestATM in atm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-katas" />
       <working_directory value="$PROJECT_DIR$/atm" />
@@ -85,6 +83,17 @@
       <pattern value="^\QTestRunOutOfNotes\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestWithdrawDifferentBankNotes in atm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-katas" />
+      <working_directory value="$PROJECT_DIR$/atm" />
+      <kind value="PACKAGE" />
+      <package value="atm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestWithdrawDifferentBankNotes\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test atm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-katas" />
       <working_directory value="$PROJECT_DIR$/atm" />
@@ -97,8 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestRunOutOfNotes in atm" />
+        <item itemvalue="Go Test.TestWithdrawDifferentBankNotes in atm" />
         <item itemvalue="Go Test.go test atm" />
+        <item itemvalue="Go Test.TestRunOutOfNotes in atm" />
         <item itemvalue="Go Test.TestATM in atm" />
       </list>
     </recent_temporary>
@@ -120,20 +130,10 @@
     <MESSAGE value="feat: withdraw two banknotfeat: withdraw 600 euros" />
     <MESSAGE value="feat: add more denominations" />
     <MESSAGE value="refactor: call withdraw from atm" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: call withdraw from atm" />
+    <MESSAGE value="refactor: deplete atm's vault" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: deplete atm's vault" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/atm/atm_test.go</url>
-          <line>33</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
