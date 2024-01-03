@@ -24,7 +24,7 @@ func Withdraw(amount int) ([]Note, error) {
 }
 
 func GetBiggerDenomination(amount int) (Note, error) {
-	denominations := []int{500, 100, 50}
+	denominations := []int{500, 200, 100, 50, 20, 10, 5, 2, 1}
 	for _, denomination := range denominations {
 		if amount >= denomination {
 			return Note{denomination}, nil
